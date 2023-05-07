@@ -1,0 +1,291 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.cima{
+    position: relative;
+    background-color: gold;
+    height: 250px;
+    color: white;
+
+}
+.user{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(252, 193, 45);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.ola{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+
+}
+.vazio{
+    position: absolute;
+    color: red;
+    bottom: 160px;
+    left: 20px;
+}
+.total{
+    position: absolute;
+    top: 900px;
+    left: 500px;
+}
+
+
+
+.corpo{
+    color: black;
+}
+.seu{
+    position: absolute;
+    left: 20px;
+    top: 280px;
+}
+.simbolo{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+
+}
+
+.seusgastos{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+.contaluguel{
+    position:absolute;
+    top: 550px;
+    background-color: rgb(245, 245, 245);
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.iconecasa{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background: none;
+
+
+}
+.c1{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+
+}
+
+.contasupermercado{
+    position:absolute;
+    top: 550px;
+    background-color: rgb(245, 245, 245);
+    left: 450px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.iconesuper{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+
+
+}
+.c2{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+
+}
+
+.conta{
+    position:absolute;
+    top: 550px;
+    background-color: rgb(245, 245, 245);
+    left: 800px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.iconeconta{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    transition: all 0.2s ease-in-out;
+
+
+}
+.c3{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+
+}
+
+.resto{
+    position:absolute;
+    top: 550px;
+    background-color: rgb(245, 245, 245);
+    left: 1150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.iconemoney{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    
+
+
+}
+.c4{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+
+}
+
+.contaluguel:hover{
+    filter: invert(100%);
+
+}
+
+
+.contasupermercado:hover{
+    filter: invert(100%);
+
+}
+
+.conta:hover{
+    filter: invert(100%);
+
+
+}
+
+
+.resto:hover{
+    filter: invert(100%);
+
+
+}
+
+.barrapreta{
+    position: relative;
+    background-color: rgb(48, 48, 48);
+    height: 850px;
+    color: white;
+    top: 800px;
+
+}
+.calculegastos{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(57, 57, 57);
+    height: 450px;
+    width: 300px;
+    top: 300px;
+    border-radius: 10px;
+    left: 300px;
+}
+.calculadora:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.texto{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+
+}
+.aluguel{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.input{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    
+}
+
+.Supermercado{
+    position: absolute;
+    left: 50px;
+    top: 120px;   
+}
+.input2{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.contaconta{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+
+}
+.input3{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    border-radius: 2px;
+    border-color: gray;
+}
+.gastos{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.input4{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+.calcular{
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.calcular:hover{
+    background-color: rgb(226, 192, 0);
+}
+.pessoa{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+.direitos{
+    color: black;
+    position: relative;
+    top: 1500px;
+}
+

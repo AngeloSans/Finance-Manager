@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet " type="text/css" href="css/pcss.css">
+    <link rel="icon" href="css/swarm1.png">
+    <title>BeeMoney-Administre seu dinheiro</title>
+</head>
+<body>
+    <header class="cima">
+        <div>
+            <img class="user" src="css/bee.png" href="css/login.html"></img>
+        </div>
+        <h1 class="ola" >Administre seu dinheiro e gastos mensais com o Bee-Money! </h1>
+
+
+    </header>
+    <body class="corpo">
+        <img src="css/dindin.png" class="simbolo"></img>
+        <h1 class="seusgastos" >Seus gastos mensais!</h1>
+        <div class="contaluguel">
+            <img class="iconecasa" src="css/casa.png" alt="">
+            <div class="c1">
+                <h1> Aluguel</h1><br>
+                <p>Aqui esta o quanto voce gasta com Aluguel.</p><br>
+                <h1  ><span th:text="${valor_aluguel}"></span></h1>
+            </div>
+        </div>
+
+        <div class="contasupermercado">
+            <img class="iconesuper" src="css/grocery.png" alt="">
+            <div class="c2">
+                <h1> Supermercado</h1><br>
+                <p>Aqui esta o quanto voce gasta com Supermercado.</p><br>
+                <h1  ><span th:text="${valor_super}"></span></h1>
+            </div>
+        </div>
+
+        <div class="conta">
+            <img class="iconeconta" src="css/conta.png" alt="">
+            <div class="c3">
+                <h1> Contas</h1><br>
+                <p>Valor para pagar de todas suas contas!.</p><br>
+                <h1  ><span th:text="${valor_conta}"></span></h1>
+            </div>
+        </div>
+
+        <div class="resto">
+            <img class="iconemoney" src="css/money.png" alt="">
+            <div class="c4">
+                <h1> Outros</h1><br>
+                <p>Gastos que estão fora de Alguel, Supermercado e Contas.</p><br>
+                <h1  ><span th:text="${valor_outros}"></span></h1>
+            </div>
+            <h1 ><span th:text="${valor_outro}"></span></h1>
+        </div>
+        <h1 class="total" ><span th:text="${total}"></span></h1>
+        
+        <div class="barrapreta">
+            <h1 class="calculegastos">Calcule todos os seus gastos</h1>
+            <form action="mostrar" method="get" class="calculadora">
+                <h5 class="texto">Coloque todos os seus gastos mensais!</h5><br>
+                <label class="aluguel" for="">Aluguel: </label><br><br>
+                <input name="aluguel" class="input" type="text"><br><br>
+                <label class="Supermercado" for="">Supermercado: </label><br><br>
+                <input name="supermercado" class="input2" type="text"><br><br>
+                <label class="contaconta" for="">Conta: </label><br><br>
+                <input name="conta" class="input3" type="text"><br><br>
+                <label class="gastos" for="">Gastos adcionais: </label><br><br> 
+                <input name="gastos" class="input4" type="text"><br><br>
+                <h6 class="vazio" ><span th:text="${vazio}"></span></h6>
+                <button  class="calcular" >Calcular!</button>
+            </form>
+            <img class="pessoa" height="1100px" width="1100px" src="css/pessoa.png">
+
+        </div>
+        <footer>
+            <p class="direitos">&copy; Esse projeto foi feito pelo anjo caido(Angelo).</p>
+        </footer>
+    </body>
+    
+</body>
+</html>
