@@ -13,18 +13,18 @@
         <div>
             <img class="user" src="css/bee.png" href="css/login.html"></img>
         </div>
-        <h1 class="ola" >Administre seu dinheiro e gastos mensais com o Bee-Money! </h1>
+        <h1 class="ola" >Manage your money and financial expenses with Bee-Money! </h1>
 
 
     </header>
     <body class="corpo">
         <img src="css/dindin.png" class="simbolo"></img>
-        <h1 class="seusgastos" >Seus gastos mensais!</h1>
+        <h1 class="seusgastos" >Your monthly expenses!</h1>
         <div class="contaluguel">
             <img class="iconecasa" src="css/casa.png" alt="">
             <div class="c1">
-                <h1> Aluguel</h1><br>
-                <p>Aqui esta o quanto voce gasta com Aluguel.</p><br>
+                <h1> Rent</h1><br>
+                <p>Here's how much you spend on rent.</p><br>
                 <h1  ><span th:text="${valor_aluguel}"></span></h1>
             </div>
         </div>
@@ -32,8 +32,8 @@
         <div class="contasupermercado">
             <img class="iconesuper" src="css/grocery.png" alt="">
             <div class="c2">
-                <h1> Supermercado</h1><br>
-                <p>Aqui esta o quanto voce gasta com Supermercado.</p><br>
+                <h1> Grocery</h1><br>
+                <p>Here is how much you spend on Supermarket.</p><br>
                 <h1  ><span th:text="${valor_super}"></span></h1>
             </div>
         </div>
@@ -41,8 +41,8 @@
         <div class="conta">
             <img class="iconeconta" src="css/conta.png" alt="">
             <div class="c3">
-                <h1> Contas</h1><br>
-                <p>Valor para pagar de todas suas contas!.</p><br>
+                <h1> Bills</h1><br>
+                <p>Value to pay of all your bills!.</p><br>
                 <h1  ><span th:text="${valor_conta}"></span></h1>
             </div>
         </div>
@@ -50,8 +50,8 @@
         <div class="resto">
             <img class="iconemoney" src="css/money.png" alt="">
             <div class="c4">
-                <h1> Outros</h1><br>
-                <p>Gastos que estão fora de Alguel, Supermercado e Contas.</p><br>
+                <h1>Extra money</h1><br>
+                <p>Expenses outside Rent, Grocery and Bills.</p><br>
                 <h1  ><span th:text="${valor_outros}"></span></h1>
             </div>
             <h1 ><span th:text="${valor_outro}"></span></h1>
@@ -59,25 +59,25 @@
         <h1 class="total" ><span th:text="${total}"></span></h1>
         
         <div class="barrapreta">
-            <h1 class="calculegastos">Calcule todos os seus gastos</h1>
+            <h1 class="calculegastos">Calculate all your expenses</h1>
             <form action="mostrar" method="get" class="calculadora">
-                <h5 class="texto">Coloque todos os seus gastos mensais!</h5><br>
-                <label class="aluguel" for="">Aluguel: </label><br><br>
+                <h5 class="texto">Put all your monthly expenses!</h5><br>
+                <label class="aluguel" for="">Rent: </label><br><br>
                 <input name="aluguel" class="input" type="text"><br><br>
-                <label class="Supermercado" for="">Supermercado: </label><br><br>
+                <label class="Supermercado" for="">Grocery: </label><br><br>
                 <input name="supermercado" class="input2" type="text"><br><br>
-                <label class="contaconta" for="">Conta: </label><br><br>
+                <label class="contaconta" for="">Bills: </label><br><br>
                 <input name="conta" class="input3" type="text"><br><br>
-                <label class="gastos" for="">Gastos adcionais: </label><br><br> 
+                <label class="gastos" for="">Extra money: </label><br><br> 
                 <input name="gastos" class="input4" type="text"><br><br>
                 <h6 class="vazio" ><span th:text="${vazio}"></span></h6>
-                <button  class="calcular" >Calcular!</button>
+                <button  class="calcular" >Calculate!</button>
             </form>
-            <img class="pessoa" height="1100px" width="1100px" src="css/pessoa.png">
+            <img class="pessoa"  src="css/pessoa.png">
 
         </div>
         <footer>
-            <p class="direitos">&copy; Esse projeto foi feito pelo anjo caido(Angelo).</p>
+            <p class="direitos">&copy; This projects has made by AnjoCaido.</p>
         </footer>
     </body>
     

@@ -72,6 +72,14 @@
     border-radius: 10px;
 
 }
+@media (min-width: 601px){
+    .contaluguel{
+        top: 550px;
+        left: 100px;
+        width: 250px;
+        height: 250px;
+    }
+}
 .iconecasa{
     position: absolute;
     left: 30px;
@@ -97,6 +105,14 @@
     border-radius: 10px;
 
 }
+@media (min-width: 601px){
+    .contasupermercado{
+        top: 550px;
+        left: 400px;
+        width: 250px;
+        height: 250px;
+    }
+}
 .iconesuper{
     position: absolute;
     left: 30px;
@@ -119,6 +135,14 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+@media (min-width: 601px){
+    .conta{
+        top: 550px;
+        left: 700px;
+        width: 250px;
+        height: 250px;
+    }
 }
 .iconeconta{
     position: absolute;
@@ -143,6 +167,14 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+@media (min-width: 601px){
+    .resto{
+        top: 550px;
+        left: 1000px;
+        width: 250px;
+        height: 250px;
+    }
 }
 .iconemoney{
     position: absolute;
@@ -282,10 +314,27 @@
     position: absolute;
     top: 200px;
     left: 800px;
+    max-height: 1100px;
+    max-width: 1100px;
 }
+@media (min-width: 601px) {
+    .pessoa{
+        top: 200px;
+        left: 800px;
+        height: 550px;
+        width: 550px;
+
+    }
+    
+  }
 .direitos{
     color: black;
     position: relative;
     top: 1500px;
 }
-
+@media (min-width: 601px){
+    .direitos{
+        position: relative;
+        top: 1000px;
+    }
+}
